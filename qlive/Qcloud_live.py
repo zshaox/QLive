@@ -9,8 +9,8 @@ import fire
 class QQlive:
     def __init__(self):
         self.T = time.time()+600
-        self.appid = '1252363965'
-        self.apikey = 'd27a9c0f797f61beec9216cb8d951e24'
+        self.appid = 'xxxxxxx'
+        self.apikey = 'xxxxxxx'
         self.url = 'http://fcgi.video.qcloud.com/common_access'
 
     def sign(self):
