@@ -1,0 +1,25 @@
+{% extends "base.html"  %}
+
+{% block title %}channel_list{% endblock %}
+
+{% block page_content %}
+<br/>
+<br/>
+<br/>
+<br/>
+<div>
+<table border="3" width="100%">
+    <tr>
+        <th>Time</th>
+        <th>ChannelID</th>
+    </tr>
+{% for i in data %}
+    <tr>
+        <td width="30%">{{ i[0] }}</td>
+        <td width="70%">{{ i[1] }}</td>
+    </tr>
+{% endfor %}
+</table>
+<div/>
+
+{% endblock %}
