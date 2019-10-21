@@ -37,5 +37,5 @@ virtualenv-clone==0.2.6
 virtualenvwrapper==4.7.2
 visitor==0.1.3
 wcwidth==0.1.7
-Werkzeug==0.12.2
+Werkzeug==0.15.3
 WTForms==2.1
