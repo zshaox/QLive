@@ -16,7 +16,7 @@ idna==2.5
 ipython==5.4.1
 ipython-genutils==0.2.0
 itsdangerous==0.24
-Jinja2==2.9.6
+Jinja2==2.11.3
 MarkupSafe==1.0
 pathlib2==2.3.0
 pbr==3.0.1
